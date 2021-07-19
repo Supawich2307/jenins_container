@@ -1,6 +1,6 @@
 FROM jenkins/jenkins
 
-USER ec2-user
+USER root
 RUN apt-get update -qq && apt-get install -qqy \
     apt-transport-https \
     ca-certificates \
